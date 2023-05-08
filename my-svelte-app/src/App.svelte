@@ -1,6 +1,5 @@
 <script>
 	import ToDoList from "./component/toDoList.svelte"; 
-	import ToDoItem  from "./component/toDoItem.svelte";
 	import TodoContent from "./component/input.svelte";
 	let todos = [];
 	const addToDo = (event) => {
